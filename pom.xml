@@ -4,15 +4,11 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-	<parent>
-		<artifactId>saf-parent</artifactId>
-		<groupId>com.future.saf</groupId>
-		<version>1.0.2-SNAPSHOT</version>
-	</parent>
-
 	<modelVersion>4.0.0</modelVersion>
 	<packaging>pom</packaging>
+	<groupId>com.future.saf</groupId>
 	<artifactId>saf-boot-starter</artifactId>
+	<version>1.0.2-SNAPSHOT</version>
 
 	<modules>
 		<module>saf-boot-starter-basic</module>
@@ -30,103 +26,107 @@
 		<tag>HEAD</tag>
 	</scm>
 
+	<properties>
+		<saf.version>1.0.2</saf.version>
+	</properties>
+
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
 				<groupId>com.future.saf</groupId>
 				<artifactId>saf-boot-starter-basic</artifactId>
-				<version>1.0.1</version>
+				<version>1.0.2-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>com.future.saf</groupId>
 				<artifactId>saf-boot-starter-web-classic</artifactId>
-				<version>1.0.1</version>
+				<version>1.0.2-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>com.future.saf</groupId>
 				<artifactId>saf-boot-starter-db-druid</artifactId>
-				<version>1.0.1</version>
+				<version>1.0.2-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>com.future.saf</groupId>
 				<artifactId>saf-boot-starter-rpc-motan</artifactId>
-				<version>1.0.1</version>
+				<version>1.0.2-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>com.future.saf</groupId>
 				<artifactId>saf-boot-starter-cache-redis</artifactId>
-				<version>1.0.1</version>
+				<version>1.0.2-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>com.future.saf</groupId>
 				<artifactId>saf-boot-starter-cache-jvm</artifactId>
-				<version>1.0.1</version>
+				<version>1.0.2-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>com.future.saf</groupId>
 				<artifactId>saf-boot-starter-configcenter-apollo</artifactId>
-				<version>1.0.1</version>
+				<version>1.0.2-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>com.future.saf</groupId>
 				<artifactId>saf-boot-starter-mq-rocketmq</artifactId>
-				<version>1.0.1</version>
+				<version>1.0.2-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>com.future.saf</groupId>
 				<artifactId>saf-boot-starter-search-elasticsearch</artifactId>
-				<version>1.0.1</version>
+				<version>1.0.2-SNAPSHOT</version>
 			</dependency>
 
 			<dependency>
 				<groupId>com.future.saf</groupId>
 				<artifactId>saf-basic</artifactId>
-				<version>1.0.1</version>
+				<version>${saf.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.future.saf</groupId>
 				<artifactId>saf-cache-jvm</artifactId>
-				<version>1.0.1</version>
+				<version>${saf.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.future.saf</groupId>
 				<artifactId>saf-cache-redis</artifactId>
-				<version>1.0.1</version>
+				<version>${saf.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.future.saf</groupId>
 				<artifactId>saf-configcenter-apollo</artifactId>
-				<version>1.0.1</version>
+				<version>${saf.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.future.saf</groupId>
 				<artifactId>saf-db-druid</artifactId>
-				<version>1.0.1</version>
+				<version>${saf.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.future.saf</groupId>
 				<artifactId>saf-mq-rocketmq</artifactId>
-				<version>1.0.1</version>
+				<version>${saf.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.future.saf</groupId>
 				<artifactId>saf-core</artifactId>
-				<version>1.0.1</version>
+				<version>${saf.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.future.saf</groupId>
 				<artifactId>saf-rpc-motan</artifactId>
-				<version>1.0.1</version>
+				<version>${saf.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.future.saf</groupId>
 				<artifactId>saf-web-classic</artifactId>
-				<version>1.0.1</version>
+				<version>${saf.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.future.saf</groupId>
 				<artifactId>saf-web-classic</artifactId>
-				<version>1.0.1</version>
+				<version>${saf.version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
