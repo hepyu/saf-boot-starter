@@ -81,52 +81,52 @@
 			<dependency>
 				<groupId>com.future.saf</groupId>
 				<artifactId>saf-basic</artifactId>
-				<version>1.0.2-SNAPSHOT</version>
+				<version>1.0.1</version>
 			</dependency>
 			<dependency>
 				<groupId>com.future.saf</groupId>
 				<artifactId>saf-cache-jvm</artifactId>
-				<version>1.0.2-SNAPSHOT</version>
+				<version>1.0.1</version>
 			</dependency>
 			<dependency>
 				<groupId>com.future.saf</groupId>
 				<artifactId>saf-cache-redis</artifactId>
-				<version>1.0.2-SNAPSHOT</version>
+				<version>1.0.1</version>
 			</dependency>
 			<dependency>
 				<groupId>com.future.saf</groupId>
 				<artifactId>saf-configcenter-apollo</artifactId>
-				<version>1.0.2-SNAPSHOT</version>
+				<version>1.0.1</version>
 			</dependency>
 			<dependency>
 				<groupId>com.future.saf</groupId>
 				<artifactId>saf-db-druid</artifactId>
-				<version>1.0.2-SNAPSHOT</version>
+				<version>1.0.1</version>
 			</dependency>
 			<dependency>
 				<groupId>com.future.saf</groupId>
 				<artifactId>saf-mq-rocketmq</artifactId>
-				<version>1.0.2-SNAPSHOT</version>
+				<version>1.0.1</version>
 			</dependency>
 			<dependency>
 				<groupId>com.future.saf</groupId>
 				<artifactId>saf-core</artifactId>
-				<version>1.0.2-SNAPSHOT</version>
+				<version>1.0.1</version>
 			</dependency>
 			<dependency>
 				<groupId>com.future.saf</groupId>
 				<artifactId>saf-rpc-motan</artifactId>
-				<version>1.0.2-SNAPSHOT</version>
+				<version>1.0.1</version>
 			</dependency>
 			<dependency>
 				<groupId>com.future.saf</groupId>
 				<artifactId>saf-web-classic</artifactId>
-				<version>1.0.2-SNAPSHOT</version>
+				<version>1.0.1</version>
 			</dependency>
 			<dependency>
 				<groupId>com.future.saf</groupId>
 				<artifactId>saf-web-classic</artifactId>
-				<version>1.0.2-SNAPSHOT</version>
+				<version>1.0.1</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
